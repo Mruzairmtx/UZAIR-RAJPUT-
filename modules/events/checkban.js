@@ -2,7 +2,7 @@ module.exports.config = {
 	name: 'checkban',
 	eventType: ['log:subscribe'],
 	version: '1.0.0',
-	credits: 'DuyVuong',
+	credits: 'uzairrajput',
 	description: 'Listen events',
 	dependencies: ''
 };
@@ -28,7 +28,7 @@ module.exports.run = async function({ api, event, client }) {
 				api.removeUserFromGroup(parseInt(info), threadID, e => {
 					if (e) return api.sendMessage(e, threadID);
 					api.sendMessage(
-						`◆━━━━━━━━━◆ BANNED ◆━━━━━━━━━◆\n\n[${info}] không thể tham gia nhóm vì đã bị ban từ trước`,
+						`◆━━━━━━━━━◆ BANNED ◆━━━━━━━━━◆\n\n[${info}] Me is group me add nahi ho sakti. Q k Phli hi mujh pe is group me pabandi laga di gai hai`,
 						threadID
 					);
 				});
