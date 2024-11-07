@@ -2,7 +2,7 @@ module.exports.config = {
     name: "rule",
     eventType: ["log:subscribe"],
     version: "",
-    credits: "Mr.Ben", //Trần Thanh Dương mod từ join của Mr.Ben
+    credits: "uzairrajput", //Trần Thanh Dương mod từ join của uzairrajput
     description: "",
 };
 module.exports.run = async function ({ api, event }) {
